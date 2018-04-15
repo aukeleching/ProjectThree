@@ -9,7 +9,7 @@
 import UIKit
 
 class mapsViewController: UIViewController {
-
+    
     
     @IBOutlet var mapsTabLabel: UILabel!
     
@@ -18,7 +18,8 @@ class mapsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.mapsTabLabel.text = "Maps"
+        self.navigationItem.title = "Maps"
+        
         
     }
 
