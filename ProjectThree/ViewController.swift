@@ -8,10 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+let restaurantsNamesArray = ["Sushi Bay", "Kazoku", "Genki Sushi", "Gyu Kaku", "DB Grill", "Aloha Salads"]
     
     @IBOutlet var eatsTabLabel: UILabel!
+    
+    @IBOutlet var tableView: UITableView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +30,22 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1;
+    }
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return restaurantsNamesArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier:"cellReuseIdentifier")
+        let text = restaurantsNamesArray[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+        
+        
+    }
+    
 }
 
