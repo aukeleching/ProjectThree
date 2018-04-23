@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>restaurantDescriptions</key>
+	<array>
+		<string>From that day forward, local customers and visitors to Hawai&apos;i have lined up to enjoy the healthy offerings of locally grown Hawaiian fruits and vegetables, gourmet meats and cheeses and delectable home-made dressings.</string>
+	</array>
+	<key>restaurantImages</key>
+	<array>
+		<string>alohaSalads</string>
+		<string>dbGrill</string>
+		<string>gyuKaku</string>
+		<string>genkiSushi</string>
+		<string>kazokuSushi</string>
+		<string>sushiBay</string>
+	</array>
+</dict>
+</plist>
