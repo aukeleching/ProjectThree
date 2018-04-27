@@ -9,13 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-let restaurantsNamesArray = ["Sushi Bay", "Kazoku", "Genki Sushi", "Gyu Kaku", "DB Grill", "Aloha Salads"]
+let restaurantsNamesArray = ["Aloha Salads", "DB Grill", "Gyu Kaku", "Genki Sushi", "Kazoku Sushi", "Sushi Bay"]
     
     @IBOutlet var eatsTabLabel: UILabel!
     
     @IBOutlet var tableView: UITableView!
     
     var restaurantImageData = [String]()
+    
+    var restaurantStoryData = [String]()
+    
     
     
     override func viewDidLoad() {
@@ -28,6 +31,8 @@ let restaurantsNamesArray = ["Sushi Bay", "Kazoku", "Genki Sushi", "Gyu Kaku", "
         let dict = NSDictionary(contentsOfFile: path!)
         
         restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
+        
+        restaurantStoryData = dict!.object(forKey: "restaurantDescriptions") as! [String]
         
         
     }

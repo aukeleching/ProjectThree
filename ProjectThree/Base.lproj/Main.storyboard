@@ -52,11 +52,13 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="MfS-ZM-qVU" id="Ny5-1d-uBI"/>
+                        <outlet property="restaurantDescription" destination="P1G-7Q-KjR" id="2sL-vG-c8i"/>
+                        <outlet property="restaurantStory" destination="P1G-7Q-KjR" id="sDT-Qn-17m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6qz-6u-yg2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2111.25" y="-732.04225352112678"/>
+            <point key="canvasLocation" x="2126" y="-56"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="v2o-CD-GfT">

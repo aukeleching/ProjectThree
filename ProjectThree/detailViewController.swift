@@ -12,8 +12,11 @@ class detailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     
-    var imagePass: String?
+    @IBOutlet var restaurantStory: UITextView!
     
+    var imagePass: String?
+
+    var textPass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +25,7 @@ class detailViewController: UIViewController {
         
         if let imageName = imagePass {
             imageView.image = UIImage(named: imageName)
+            
             
             
         }
