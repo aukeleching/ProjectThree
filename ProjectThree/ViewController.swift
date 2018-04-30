@@ -17,7 +17,10 @@ let restaurantsNamesArray = ["Aloha Salads", "DB Grill", "Gyu Kaku", "Genki Sush
     
     var restaurantImageData = [String]()
     
-    var restaurantStoryData = [String]()
+    var restaurantTextData = [String]()
+    
+    var restaurantTitleData = [String]()
+    
     
     
     
@@ -32,7 +35,11 @@ let restaurantsNamesArray = ["Aloha Salads", "DB Grill", "Gyu Kaku", "Genki Sush
         
         restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
         
-        restaurantStoryData = dict!.object(forKey: "restaurantDescriptions") as! [String]
+        restaurantTextData = dict!.object(forKey: "restaurantDescriptions") as! [String]
+        
+        restaurantTitleData = dict!.object(forKey: "restaurantTitles") as! [String]
+        
+        
         
         
     }
@@ -71,6 +78,9 @@ let restaurantsNamesArray = ["Aloha Salads", "DB Grill", "Gyu Kaku", "Genki Sush
         let s1 = segue.destination as! detailViewController
         let imageIndex = tableView.indexPathForSelectedRow?.row
         s1.imagePass = restaurantImageData[imageIndex!]
+        s1.textPass = restaurantTextData[imageIndex!]
+        s1.titlePass = restaurantTitleData[imageIndex!]
+        
     
 }
 }

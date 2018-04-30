@@ -17,14 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="d32-1O-b8A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Lcc-Av-3r2">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ruf-jY-1Xz"/>
                     </view>
                     <navigationItem key="navigationItem" id="Wdk-Xr-t31"/>
+                    <connections>
+                        <outlet property="mapView" destination="Lcc-Av-3r2" id="stu-jY-vTH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hWj-oh-HYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="610"/>
+            <point key="canvasLocation" x="1408.125" y="609.50704225352115"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="UgD-bF-74s">

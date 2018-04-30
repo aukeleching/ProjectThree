@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F56C372096AD69006F0D76 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F56C362096AD69006F0D76 /* Restaurant.swift */; };
 		7F1090BC207C05490003AAD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1090BB207C05490003AAD8 /* AppDelegate.swift */; };
 		7F1090BE207C05490003AAD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1090BD207C05490003AAD8 /* ViewController.swift */; };
 		7F1090C1207C05490003AAD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1090BF207C05490003AAD8 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19F56C362096AD69006F0D76 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		7F1090B8207C05490003AAD8 /* ProjectThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1090BB207C05490003AAD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F1090BD207C05490003AAD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				7F1090BB207C05490003AAD8 /* AppDelegate.swift */,
 				7F1090BD207C05490003AAD8 /* ViewController.swift */,
 				7F1090BF207C05490003AAD8 /* Main.storyboard */,
+				19F56C362096AD69006F0D76 /* Restaurant.swift */,
 				7F2A385B208E747700FE30A7 /* detailViewController.swift */,
 				7F2A3859208E6FD200FE30A7 /* Property List.plist */,
 				7F1090E9207C09AB0003AAD8 /* mapsViewController.swift */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F56C372096AD69006F0D76 /* Restaurant.swift in Sources */,
 				7F1090BE207C05490003AAD8 /* ViewController.swift in Sources */,
 				7F1090BC207C05490003AAD8 /* AppDelegate.swift in Sources */,
 				7F1090EA207C09AB0003AAD8 /* mapsViewController.swift in Sources */,

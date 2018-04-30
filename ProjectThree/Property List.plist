@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>restaurantTitles</key>
+	<array>
+		<string>Aloha Salads</string>
+		<string>DB Grill</string>
+		<string>Gyu Kaku</string>
+		<string>Genki Sushi</string>
+		<string>Kazoku Sushi</string>
+		<string>Sushi Bay</string>
+	</array>
 	<key>restaurantDescriptions</key>
 	<array>
 		<string>From that day forward, local customers and visitors to Hawai&apos;i have lined up to enjoy the healthy offerings of locally grown Hawaiian fruits and vegetables, gourmet meats and cheeses and delectable home-made dressings.</string>

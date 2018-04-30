@@ -12,23 +12,32 @@ class detailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     
-    @IBOutlet var restaurantStory: UITextView!
+    @IBOutlet var textView: UITextView!
     
     var imagePass: String?
-
     var textPass: String?
+    var titlePass: String?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
+        self.view.backgroundColor = UIColor.green 
+        
         if let imageName = imagePass {
             imageView.image = UIImage(named: imageName)
-            
-            
-            
         }
+        
+        if let description = textPass {
+            textView.text = description
+        }
+        
+        if let title = titlePass {
+            self.title = title
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {
